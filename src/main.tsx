@@ -10,10 +10,10 @@ import { BrowserRouter } from "react-router-dom";
 
 // translation
 import "@/lib/i18n";
-import { LanguageProvider } from "@/components/shadcn/Language/language-provider";
+import { LanguageProvider } from "@/components/Language/language-provider";
 
 // theme
-import { ThemeProvider } from "@/components/shadcn/Theme/theme-provider";
+import { ThemeProvider } from "@/components/Theme/theme-provider";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>

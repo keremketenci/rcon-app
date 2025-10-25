@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/shadcn/ui/button";
 
 // components
-import { ThemeModeToggle } from "@/components/shadcn/Theme/theme-mode-toggle";
+import { ThemeModeToggle } from "@/components/Theme/theme-mode-toggle";
 
 export default function Settings() {
   const { t, i18n } = useTranslation();
