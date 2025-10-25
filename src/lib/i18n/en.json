@@ -1,5 +1,30 @@
 {
   "app": {
     "title": "RCON Control Panel"
+  },
+  "Navigation": {
+    "Navbar": {
+      "Home": "Home Page",
+      "Settings": "Settings"
+    },
+    "Go": {
+      "Home": "Go to Home Page",
+      "Settings": "Go to Settings"
+    }
+  },
+  "Home": {
+    "title": "Home Page"
+  },
+  "Settings": {
+    "title": "Settings",
+    "description": "Configure application preferences",
+    "options": {
+      "language": "Language",
+      "theme": "Theme"
+    },
+    "actions": {
+      "changeLanguage": "Change language",
+      "changeTheme": "Change theme"
+    }
   }
 }

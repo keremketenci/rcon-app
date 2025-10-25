@@ -1,5 +1,30 @@
 {
   "app": {
-    "title": "RCON Kontrol Paneli"
+    "title": "RCON Kontrol Panel"
+  },
+  "Navigation": {
+    "Navbar": {
+      "Home": "Anasayfa",
+      "Settings": "Ayarlar"
+    },
+    "Go": {
+      "Home": "Anasayfaya git",
+      "Settings": "Ayarlar'a git"
+    }
+  },
+  "Home": {
+    "title": "Anasayfa"
+  },
+  "Settings": {
+    "title": "Ayarlar",
+    "description": "Uygulama tercihlerini yapılandırın",
+    "options": {
+      "language": "Dil",
+      "theme": "Tema"
+    },
+    "actions": {
+      "changeLanguage": "Dili değiştir",
+      "changeTheme": "Temayı değiştir"
+    }
   }
 }
