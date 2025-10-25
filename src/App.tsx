@@ -1,3 +1,4 @@
+// styles
 import "./App.css";
 
 // translation
@@ -14,23 +15,13 @@ function App() {
 
   return (
     <main>
-      <h1 className="text-2xl font-bold">{t("app.title")}</h1>
-      <div className="flex min-h-svh flex-col items-center justify-center">
+      <h1 className="text-2xl font-bold text-center">{t("app.title")}</h1>
+      <div className="flex flex-col min-h-screen items-center justify-center gap-4">
         <Button>Click me</Button>
         <ThemeModeToggle />
-        <div>
-          <button
-            className="border px-3 py-1 rounded"
-            onClick={() => i18n.changeLanguage("en")}
-          >
-            🇺🇸 English
-          </button>
-          <button
-            className="ml-2 border px-3 py-1 rounded"
-            onClick={() => i18n.changeLanguage("tr")}
-          >
-            🇹🇷 Türkçe
-          </button>
+        <div className="space-x-2">
+          <Button onClick={() => i18n.changeLanguage("en")}>🇺🇸 English</Button>
+          <Button onClick={() => i18n.changeLanguage("tr")}>🇹🇷 Türkçe</Button>
         </div>
       </div>
     </main>
