@@ -10,11 +10,14 @@ import { ThemeProvider } from "@/components/shadcn/Theme/theme-provider";
 
 // translation
 import "@/lib/i18n";
+import { LanguageProvider } from "@/components/shadcn/Language/language-provider";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
-      <App />
-    </ThemeProvider>
+    <LanguageProvider defaultLanguage="en" storageKey="app-language">
+      <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
+        <App />
+      </ThemeProvider>
+    </LanguageProvider>
   </React.StrictMode>,
 );
